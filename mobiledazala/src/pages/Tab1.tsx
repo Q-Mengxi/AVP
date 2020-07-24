@@ -1,5 +1,5 @@
 import React from 'react';
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react'; // TODO: fixme 
+import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonLabel } from '@ionic/react'; // TODO: fixme 
 import './Tab1.css';
 
 const Tab1: React.FC = () => {
@@ -7,17 +7,18 @@ const Tab1: React.FC = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>Tab 1</IonTitle>
+          <IonTitle>Welcome to Dazala”</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent>
         <IonHeader collapse="condense">
           <IonToolbar>
-            <IonTitle size="large">Tab 1</IonTitle>
+            <IonTitle size="large">Welcome to Dazala”</IonTitle>
           </IonToolbar>
         </IonHeader>
         <IonContent class="center">
           {/* TODO: fixme, but you might not need the curly brackets */}
+          <IonLabel>Welcome to Dazala!</IonLabel>
         </IonContent>
       </IonContent>
     </IonPage>
